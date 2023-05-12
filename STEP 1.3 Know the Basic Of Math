@@ -16,3 +16,23 @@ int count(int n){
     int cnt = (int)(log10(n) + 1);
     return cnt;
 }
+
+
+Que.2 Reverse Number.
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;
+    int revNum = 0;
+    while(n > 0) {
+        int ld = n % 10;
+        revNum = (revNum * 10) + ld;
+        n = n / 10;
+    }
+    cout << revNum;
+}
+
+
