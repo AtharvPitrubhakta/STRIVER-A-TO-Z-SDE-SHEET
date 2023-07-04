@@ -515,6 +515,7 @@ void pattern21(int n) {
     }    
 }
 
+
 ****Pattern-22*****
  
 4 4 4 4 4 4 4
